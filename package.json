@@ -12,4 +12,7 @@
     "@playwright/test": "^1.65.0",
     "@types/node": "^26.6.6"
   }
+,"scripts":{
+  "test:PTF": "npx playwright test example.spec.ts"
+}
 }
